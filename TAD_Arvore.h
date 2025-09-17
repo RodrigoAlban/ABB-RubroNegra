@@ -44,5 +44,7 @@ void desenhaArvore(pDArvore, FuncaoImpressao);
 
 void recolorir(pNohArvore);
 
+int iguais(pDArvore, pDArvore, FuncaoComparacao);
+
 #endif
 

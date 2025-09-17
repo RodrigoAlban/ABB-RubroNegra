@@ -26,6 +26,20 @@ int main(){
    int ex4[]   = {5, 10, 3, 2, 14, 12};  // caso 2.4
    int ex5[]   = {8, 3, 21, 16, 27, 9, 18, 29, 10}; // vários casos juntos
 
+
+    printf("Construindo Arvore 1\n");
+    pDArvore a1 = constroiArvore(ex1, 4);
+    printf("Construindo Arvore 2\n");
+    pDArvore a2 = constroiArvore(ex1, 4);
+    printf("Construindo Arvore 3\n");
+    pDArvore a3 = constroiArvore(ex1_1, 3);
+
+    int eq12 = iguais(a1, a2, comparaInt);
+    int eq13 = iguais(a1, a3, comparaInt);
+
+    printf("\na1 == a2? %s\n", eq12 ? "SIM" : "NAO");
+    printf("a1 == a3? %s\n", eq13 ? "SIM" : "NAO");
+
    //constroiArvore(ex1, 4);
    //constroiArvore(ex1_1, 3);
    //constroiArvore(ex1_2, 3);

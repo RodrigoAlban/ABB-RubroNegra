@@ -14,5 +14,9 @@
 
 #include "Operacoes/12_desenhaArvore.h"
 
+#include "Operacoes/13_altura.h"
+
+#include "Operacoes/14_iguais.h"
+
 
 #endif
