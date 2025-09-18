@@ -40,6 +40,7 @@ int       quantidadeFolhas(pDArvore);
 int       ehFolha         (pDArvore, void *, FuncaoComparacao);
 int       arvoreVazia     (pDArvore);
 int       estritamenteBinaria (pDArvore);
+int       filhoUnico      (pDArvore);
 
 void desenhaArvore(pDArvore, FuncaoImpressao);
 
