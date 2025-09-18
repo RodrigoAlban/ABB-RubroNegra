@@ -34,8 +34,8 @@ int main(){
     printf("Construindo Arvore 3\n");
     pDArvore a3 = constroiArvore(ex1_1, 3);
 
-    int eq12 = iguais(a1, a2, comparaInt);
-    int eq13 = iguais(a1, a3, comparaInt);
+    int eq12 = iguais(a1, a2, comparaInt); // equivalente 1 e 2
+    int eq13 = iguais(a1, a3, comparaInt); // equivalente 1 e 3
 
     printf("\na1 == a2? %s\n", eq12 ? "SIM" : "NAO");
     printf("a1 == a3? %s\n", eq13 ? "SIM" : "NAO");
@@ -47,7 +47,12 @@ int main(){
    //constroiArvore(ex2, 6);
    //constroiArvore(ex3, 6);
    //constroiArvore(ex4, 6);
-   constroiArvore(ex5, 9);
+   pDArvore arvoreExemplo = constroiArvore(ex5, 9);
+
+   if (estritamenteBinaria(arvoreExemplo) == 1)
+    printf("\nA árvore é estritamente binária");
+    else
+    printf("\nA árvore não é estritamente binária");
  }
 
 

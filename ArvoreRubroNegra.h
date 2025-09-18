@@ -18,5 +18,7 @@
 
 #include "Operacoes/14_iguais.h"
 
+#include "Operacoes/15_estritamenteBinaria.h"
+
 
 #endif

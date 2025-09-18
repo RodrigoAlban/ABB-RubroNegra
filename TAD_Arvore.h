@@ -39,6 +39,7 @@ int       nivel           (pDArvore, void *, FuncaoComparacao);
 int       quantidadeFolhas(pDArvore);
 int       ehFolha         (pDArvore, void *, FuncaoComparacao);
 int       arvoreVazia     (pDArvore);
+int       estritamenteBinaria (pDArvore);
 
 void desenhaArvore(pDArvore, FuncaoImpressao);
 
